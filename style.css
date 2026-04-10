@@ -138,6 +138,7 @@ a {
     padding-top: 1rem;
     font-size: 0.9rem;
     font-weight: 200;
+    line-height: 1.5rem;
 }
 
 .desc-2{
@@ -145,8 +146,11 @@ a {
     font-size: 0.9rem;
     font-weight: 200;
     color: #E58411;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.direct{
-    justify-content: center;
+.title-segment{
+    padding-right: 3rem;
 }
