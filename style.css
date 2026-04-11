@@ -154,3 +154,50 @@ a {
 .title-segment{
     padding-right: 3rem;
 }
+
+.segment-2{
+    background-color: #F7F7F7;
+}
+
+.best-selling-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.title {
+    font-size: 2.5rem; 
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 2rem;
+}
+
+.filter-pill {   
+    background-color: #EEEEEE;
+    border-radius: 100px;
+    padding: 0.7rem;     
+    align-items: center;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.filter-btn {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 1.1rem;
+    font-size: 18px;
+    font-weight: 300;
+    color: #1E1E1E;
+    border-radius: 100px;
+}
+
+.filter-btn.active {
+    background-color: #FFFFFF;
+    color: #111111;
+}
+
+#bs-icons{
+    color: #000000;
+}
+
