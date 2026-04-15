@@ -320,3 +320,68 @@ a {
     width: 40%;
 }
 
+.experience-images {
+    position: relative;
+}
+
+.main-img {
+    position: relative;
+    z-index: 10; 
+    transform: translateX(-60px); 
+}
+
+.shadow-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    transform: translate(0px, -40px);
+}
+
+.shadow-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    transform: translate(90px, 50px);
+}
+
+.materials-container{
+    display: flex;
+    justify-content: space-between; /* Pushes text to the far left, images to the far right */
+    align-items: center;
+    padding: 80px 0; /* Only vertical padding; horizontal is handled by .container */
+    gap: 60px;
+    max-width: 1200px; /* Standard width for the Panto design */
+    margin: 0 auto;    /* Centers the container */
+    padding: 0 40px;   /* Prevents content from touching the edges on smaller screens */
+    width: 100%;
+}
+
+.materials-img {
+    display: flex;
+    /* width: 100%; */
+    padding-top: 4rem;
+}
+
+.exm-1 {
+    color: #E58411;
+    letter-spacing: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.exm-2{
+    padding-bottom: 2rem;
+}
+
+.exm-3 {
+    font-weight: 250;
+    font-size: 1.1rem;
+}
+
+.materials-description {
+    width: 100%; 
+    text-align: left; 
+    margin: 0; 
+    line-height: 1.9rem;
+}
