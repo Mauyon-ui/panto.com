@@ -424,7 +424,7 @@ a {
 }
 
 .review-container{
-    margin-bottom: 8rem;
+    /* margin-bottom: 8rem; */
     padding: 6rem 7rem;
 }
 
@@ -501,4 +501,82 @@ a {
 .review-card:hover {
   transform: translate(-5px, -10px); 
   box-shadow: 15px 20px 30px #0000001a;
+}
+
+.footer-background {
+    background-color: #F7F7F7;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 6rem 7rem;
+}
+
+.footer-1 {
+    width: 30%;
+}
+
+.footer-description {
+    margin-top: 3rem;
+    font-weight: 200;
+    color: #1E1E1E;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-top: 0.7rem;
+}
+
+.social-icons1 {
+    margin-right: 1.2rem;
+}
+
+.social-icons2 {
+    margin-right: 0.6rem;
+}
+
+.social-icons3 {
+    margin-right: 0.7rem;
+}
+
+.footer-service {
+    margin-top: 1rem;
+    color: #1E1E1E;
+}
+
+.footer-furn {
+    margin-top: 1rem;
+    color: #1E1E1E;
+}
+
+.footer-header {
+    color: #E58411;
+}
+
+.social-text {
+    color: #1E1E1E;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem;
+}
+
+.copyright {
+    color: #1E2833;
+}
+
+.terms-privacy {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.terms-privacy-link {
+    color: #1E1E1E;
 }
