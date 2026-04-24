@@ -424,8 +424,8 @@ a {
 }
 
 .review-container{
-    /* margin-bottom: 8rem; */
-    padding: 6rem 7rem;
+    width: 75%;
+    /* padding: 6rem 7rem; */
 }
 
 .info-box {
@@ -437,7 +437,6 @@ a {
     padding: 35px 20px 20px 20px; 
     border-radius: 18px;
     text-align: center;
-    /* box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05); */
 }
 
 
