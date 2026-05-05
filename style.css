@@ -104,7 +104,7 @@ a {
   border: 0px;
   outline: none;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .search-input::placeholder {
@@ -152,7 +152,8 @@ a {
 }
 
 .title-segment{
-    padding-right: 3rem;
+    /* padding-right: 3rem; */
+    width: 60%;
 }
 
 .segment-2{
@@ -300,6 +301,10 @@ a {
     margin: 0 auto;
 }
 
+.mb-experience-image {
+    display: none;
+}
+
 .ex-1 {
     color: #E58411;
     letter-spacing: 0.2rem;
@@ -312,6 +317,7 @@ a {
 
 .ex-3 {
     font-weight: 250;
+    width: 85%;
 }
 
 .experience-description {
@@ -349,7 +355,7 @@ a {
     transform: translate(90px, 50px);
 }
 
-.materials-container{
+.materials-container {
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -374,12 +380,13 @@ a {
 }
 
 .exm-2{
-    padding-bottom: 2rem;
+    width: 55%;   
 }
 
 .exm-3 {
     font-weight: 250;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
+    width: 100%;
 }
 
 .materials-description {
@@ -579,3 +586,248 @@ a {
 .terms-privacy-link {
     color: #1E1E1E;
 }
+
+.choosing-title {
+    width: 70%;
+}
+
+
+
+/* mobile-view */
+@media (max-width: 480px) {
+    .mb-nav-links {
+        display: none;
+    }
+
+    .mb-navbar {
+        padding: 2rem 2rem;
+    }
+
+    .hero-subtitle {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 1.8rem;
+        margin-top: 0%;
+    }
+
+    .search-button {
+        margin-left: 0;
+    }
+
+    .search-container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .title-segment {
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+        justify-items: center;
+        font-size: 0.9rem;
+    }
+
+    .mb-segment-1{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .mb-chair-display {
+        flex-direction: column;
+        /* padding-top: 2rem; */
+    }
+
+    .mb-experience-section {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .mb-materials-container {  
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .mb-materials-img {
+        padding-top: 2rem;
+    }
+
+    .mb-review-images {
+        flex-direction: column;
+        /* padding: 2rem; */
+    }
+
+    .mb-copyright-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .mb-segments {
+        padding-top: 2rem;
+    }
+
+    .filter-pill {
+        width: 80%;
+    }
+
+    .filter-btn.active {
+        margin: 0.3rem;
+    }
+
+    .filter-btn {
+        font-size: 0.8rem;
+        padding: 0.7rem;
+    }
+
+    .best-selling-container {
+        padding: 50px 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .title{
+        width: 100%;
+    }
+
+    .product-card{
+        margin-bottom: 4rem;
+    }
+
+    .img-chair {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 290px;
+        padding-top: 2rem;
+    }
+
+    .experience-images {
+        display: none;        
+    }
+
+    .mb-experience-image {
+        display: block;    
+    }
+
+    .mb-experience-img {
+        /* display: block; */
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        box-shadow: 10px 20px 50px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+     .experience-description {
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+     .choosing-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ex-3 {
+        width: 100%;
+        /* align-items: center;
+        text-align: center; */
+        padding: 0 20px;
+        justify-content: center;
+    }
+
+    .desc-2 {
+        justify-content: center;
+    }
+
+     .materials-description {
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+     .exm-2{
+        width: 100%;   
+    }
+
+     .exm-3 {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    body, html {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .img-review {
+        padding-right: 0px;
+    }
+
+    .review-card {
+        width: 100%;
+    }
+
+    .footer-section {
+        display: block;
+        padding: 0px;
+        padding-top: 3rem;
+    }
+
+    .footer-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-description {
+        margin-top: 2rem;
+    }
+
+    .footer-2 {
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .footer-3 {
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .footer-4 {
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .mb-socials {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .search-input {
+        font-size: 0.72rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .search-input-mini {
+        font-size: 0.72rem;
+    }
+}
+
+
+
+
